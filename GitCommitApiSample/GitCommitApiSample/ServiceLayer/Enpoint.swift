@@ -11,7 +11,7 @@ import Foundation
 struct Enpoint {
     let endPoint = "https://api.github.com/repos"
     func getCommitsPath() -> URL {
-        let url = URL(fileURLWithPath: endPoint + "MohitGupta7860/SelfLearning/commits")
+        guard let url = URL(string: endPoint + "/MohitGupta7860/SelfLearning/commits") else { return  NSURL() as URL }
         return url
     }
 }

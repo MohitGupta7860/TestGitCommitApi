@@ -18,6 +18,7 @@
 		3C898D1923CAD73000E05A5B /* GitCommitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C898D1823CAD73000E05A5B /* GitCommitData.swift */; };
 		3C898D1B23CAD7BE00E05A5B /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C898D1A23CAD7BE00E05A5B /* WebService.swift */; };
 		3C898D1D23CAD7F400E05A5B /* Enpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C898D1C23CAD7F400E05A5B /* Enpoint.swift */; };
+		3C898D2023CADC7600E05A5B /* GitCommitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C898D1F23CADC7600E05A5B /* GitCommitViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		3C898D1823CAD73000E05A5B /* GitCommitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitCommitData.swift; sourceTree = "<group>"; };
 		3C898D1A23CAD7BE00E05A5B /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		3C898D1C23CAD7F400E05A5B /* Enpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enpoint.swift; sourceTree = "<group>"; };
+		3C898D1F23CADC7600E05A5B /* GitCommitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitCommitViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 		3C898D1E23CADB2600E05A5B /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				3C898D1F23CADC7600E05A5B /* GitCommitViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C898D2023CADC7600E05A5B /* GitCommitViewModel.swift in Sources */,
 				3C898D1D23CAD7F400E05A5B /* Enpoint.swift in Sources */,
 				3C898D1B23CAD7BE00E05A5B /* WebService.swift in Sources */,
 				3C898CE623CAD5F300E05A5B /* ViewController.swift in Sources */,
