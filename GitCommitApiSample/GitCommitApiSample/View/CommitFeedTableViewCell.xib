@@ -16,20 +16,20 @@
                 <rect key="frame" x="0.0" y="0.0" width="381" height="83"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fcD-1X-ecX">
-                        <rect key="frame" x="7" y="0.0" width="365" height="19.5"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fcD-1X-ecX">
+                        <rect key="frame" x="7" y="5" width="365" height="19.5"/>
                         <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e8V-3N-MsN">
-                        <rect key="frame" x="7" y="24.5" width="365" height="19.5"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e8V-3N-MsN">
+                        <rect key="frame" x="7" y="29.5" width="365" height="19.5"/>
                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eQ1-uo-vrj">
-                        <rect key="frame" x="7" y="49" width="365" height="19.5"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eQ1-uo-vrj">
+                        <rect key="frame" x="7" y="54" width="365" height="19.5"/>
                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -37,8 +37,8 @@
                 </subviews>
                 <constraints>
                     <constraint firstItem="eQ1-uo-vrj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="7" id="0jU-fT-n4c"/>
-                    <constraint firstItem="fcD-1X-ecX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="1dk-vk-myP"/>
-                    <constraint firstAttribute="bottom" secondItem="eQ1-uo-vrj" secondAttribute="bottom" constant="14.5" id="2sA-R4-jhn"/>
+                    <constraint firstItem="fcD-1X-ecX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="1dk-vk-myP"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="eQ1-uo-vrj" secondAttribute="bottom" constant="9.5" id="2sA-R4-jhn"/>
                     <constraint firstItem="e8V-3N-MsN" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="7" id="8Iz-hc-QHA"/>
                     <constraint firstAttribute="trailing" secondItem="e8V-3N-MsN" secondAttribute="trailing" constant="9" id="Jsh-ap-TJa"/>
                     <constraint firstAttribute="trailing" secondItem="eQ1-uo-vrj" secondAttribute="trailing" constant="9" id="Uaq-ma-4o9"/>
