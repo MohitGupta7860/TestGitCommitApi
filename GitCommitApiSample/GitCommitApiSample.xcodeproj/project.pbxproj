@@ -19,6 +19,8 @@
 		3C898D1B23CAD7BE00E05A5B /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C898D1A23CAD7BE00E05A5B /* WebService.swift */; };
 		3C898D1D23CAD7F400E05A5B /* Enpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C898D1C23CAD7F400E05A5B /* Enpoint.swift */; };
 		3C898D2023CADC7600E05A5B /* GitCommitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C898D1F23CADC7600E05A5B /* GitCommitViewModel.swift */; };
+		3C898D2323CAE66A00E05A5B /* CommitFeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C898D2123CAE66A00E05A5B /* CommitFeedTableViewCell.swift */; };
+		3C898D2423CAE66A00E05A5B /* CommitFeedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C898D2223CAE66A00E05A5B /* CommitFeedTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		3C898D1A23CAD7BE00E05A5B /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		3C898D1C23CAD7F400E05A5B /* Enpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enpoint.swift; sourceTree = "<group>"; };
 		3C898D1F23CADC7600E05A5B /* GitCommitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitCommitViewModel.swift; sourceTree = "<group>"; };
+		3C898D2123CAE66A00E05A5B /* CommitFeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitFeedTableViewCell.swift; sourceTree = "<group>"; };
+		3C898D2223CAE66A00E05A5B /* CommitFeedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommitFeedTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +147,8 @@
 			children = (
 				3C898CE523CAD5F300E05A5B /* ViewController.swift */,
 				3C898CE723CAD5F300E05A5B /* Main.storyboard */,
+				3C898D2123CAE66A00E05A5B /* CommitFeedTableViewCell.swift */,
+				3C898D2223CAE66A00E05A5B /* CommitFeedTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -276,6 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C898D2423CAE66A00E05A5B /* CommitFeedTableViewCell.xib in Resources */,
 				3C898CEE23CAD5F500E05A5B /* LaunchScreen.storyboard in Resources */,
 				3C898CEB23CAD5F500E05A5B /* Assets.xcassets in Resources */,
 				3C898CE923CAD5F300E05A5B /* Main.storyboard in Resources */,
@@ -303,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C898D2323CAE66A00E05A5B /* CommitFeedTableViewCell.swift in Sources */,
 				3C898D2023CADC7600E05A5B /* GitCommitViewModel.swift in Sources */,
 				3C898D1D23CAD7F400E05A5B /* Enpoint.swift in Sources */,
 				3C898D1B23CAD7BE00E05A5B /* WebService.swift in Sources */,

@@ -21,6 +21,7 @@ class CommitViewModel: CommitViewable {
     func getCommitData(completion:@escaping ()->Void) {
         webService.getCommitData { [weak self] list in
             self?.commitList = list
+            completion()
         }
     }
 }
