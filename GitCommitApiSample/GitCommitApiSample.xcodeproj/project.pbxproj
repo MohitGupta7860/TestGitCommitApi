@@ -15,6 +15,9 @@
 		3C898CEE23CAD5F500E05A5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C898CEC23CAD5F500E05A5B /* LaunchScreen.storyboard */; };
 		3C898CF923CAD5F500E05A5B /* GitCommitApiSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C898CF823CAD5F500E05A5B /* GitCommitApiSampleTests.swift */; };
 		3C898D0423CAD5F600E05A5B /* GitCommitApiSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C898D0323CAD5F600E05A5B /* GitCommitApiSampleUITests.swift */; };
+		3C898D1923CAD73000E05A5B /* GitCommitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C898D1823CAD73000E05A5B /* GitCommitData.swift */; };
+		3C898D1B23CAD7BE00E05A5B /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C898D1A23CAD7BE00E05A5B /* WebService.swift */; };
+		3C898D1D23CAD7F400E05A5B /* Enpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C898D1C23CAD7F400E05A5B /* Enpoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		3C898CFF23CAD5F600E05A5B /* GitCommitApiSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitCommitApiSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C898D0323CAD5F600E05A5B /* GitCommitApiSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitCommitApiSampleUITests.swift; sourceTree = "<group>"; };
 		3C898D0523CAD5F600E05A5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C898D1823CAD73000E05A5B /* GitCommitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitCommitData.swift; sourceTree = "<group>"; };
+		3C898D1A23CAD7BE00E05A5B /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		3C898D1C23CAD7F400E05A5B /* Enpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enpoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +105,12 @@
 		3C898CE023CAD5F300E05A5B /* GitCommitApiSample */ = {
 			isa = PBXGroup;
 			children = (
+				3C898D1E23CADB2600E05A5B /* ViewModel */,
+				3C898D1723CAD70400E05A5B /* Model */,
+				3C898D1423CAD6A600E05A5B /* ServiceLayer */,
+				3C898D1323CAD69E00E05A5B /* View */,
 				3C898CE123CAD5F300E05A5B /* AppDelegate.swift */,
 				3C898CE323CAD5F300E05A5B /* SceneDelegate.swift */,
-				3C898CE523CAD5F300E05A5B /* ViewController.swift */,
-				3C898CE723CAD5F300E05A5B /* Main.storyboard */,
 				3C898CEA23CAD5F500E05A5B /* Assets.xcassets */,
 				3C898CEC23CAD5F500E05A5B /* LaunchScreen.storyboard */,
 				3C898CEF23CAD5F500E05A5B /* Info.plist */,
@@ -126,6 +134,39 @@
 				3C898D0523CAD5F600E05A5B /* Info.plist */,
 			);
 			path = GitCommitApiSampleUITests;
+			sourceTree = "<group>";
+		};
+		3C898D1323CAD69E00E05A5B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3C898CE523CAD5F300E05A5B /* ViewController.swift */,
+				3C898CE723CAD5F300E05A5B /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3C898D1423CAD6A600E05A5B /* ServiceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				3C898D1A23CAD7BE00E05A5B /* WebService.swift */,
+				3C898D1C23CAD7F400E05A5B /* Enpoint.swift */,
+			);
+			path = ServiceLayer;
+			sourceTree = "<group>";
+		};
+		3C898D1723CAD70400E05A5B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3C898D1823CAD73000E05A5B /* GitCommitData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3C898D1E23CADB2600E05A5B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +300,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C898D1D23CAD7F400E05A5B /* Enpoint.swift in Sources */,
+				3C898D1B23CAD7BE00E05A5B /* WebService.swift in Sources */,
 				3C898CE623CAD5F300E05A5B /* ViewController.swift in Sources */,
 				3C898CE223CAD5F300E05A5B /* AppDelegate.swift in Sources */,
+				3C898D1923CAD73000E05A5B /* GitCommitData.swift in Sources */,
 				3C898CE423CAD5F300E05A5B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
